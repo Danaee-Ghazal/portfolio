@@ -2,6 +2,8 @@
 font-family: 'Poppins', sans-serif; */
 
 :root {
+  --primary-color: #ffcbcb;
+  --secondry-color: #407088;
   --heading-font: "Playfair Display", serif;
   --paragraph-font: "Poppins", sans-serif;
   --default-font: "Poppins", sans-serif;
@@ -15,26 +17,25 @@ h1 {
   font-weight: bold;
   font-size: 96px;
 }
-
 h2 {
-  font-family: var(--heading-font);
+  font-family: var(--paragraph-font);
+  font-size: 44px;
+  font-weight: bold;
+}
+h3 {
+  font-family: var(--paragraph-font);
   font-weight: normal;
   font-size: 24px;
   line-height: 2;
+  opacity: 0.7;
 }
-.Hero p {
-  font-size: 36px;
-  font-weight: bold;
-  margin: 0;
-  color: #272142;
-}
-.Hero {
+.biography {
+  background-color: var(--primary-color);
   text-align: center;
-  background-color: #f9f7fe;
   padding: 160px 20px;
 }
-.btn-branding {
-  background: #6c63ff;
+.primary-link {
+  background-color: var(--secondry-color);
   border-radius: 4px;
   color: white;
   font-size: 18px;
