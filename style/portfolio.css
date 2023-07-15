@@ -7,6 +7,7 @@ font-family: 'Poppins', sans-serif; */
   --heading-font: "Playfair Display", serif;
   --paragraph-font: "Poppins", sans-serif;
   --default-font: "Poppins", sans-serif;
+  --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 }
 body {
   font-family: var(--default-font);
@@ -29,6 +30,10 @@ h3 {
   line-height: 2;
   opacity: 0.7;
 }
+img {
+  padding: 15px 20px;
+  background-color: var(--primary-color);
+}
 .biography {
   background-color: var(--primary-color);
   text-align: center;
@@ -41,4 +46,26 @@ h3 {
   font-size: 18px;
   line-height: 27px;
   padding: 15px 30px;
+  text-decoration: none;
+  box-shadow: var(--box-shadow);
+}
+.email-link {
+  display: flex;
+  justify-content: center;
+  color: var(--secondry-color);
+  font-size: 28px;
+  text-decoration: none;
+}
+@media (max-width: 900px) {
+  h1 {
+    font-size: 44px;
+  }
+
+  h2 {
+    font-size: 40px;
+  }
+
+  .biography {
+    padding: 80px 20px;
+  }
 }
