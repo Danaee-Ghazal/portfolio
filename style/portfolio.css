@@ -37,7 +37,7 @@ img {
 .biography {
   background-color: var(--primary-color);
   text-align: center;
-  padding: 160px 20px;
+  padding: 100px 10px;
 }
 .primary-link {
   background-color: var(--secondry-color);
@@ -63,8 +63,14 @@ img {
 
   h2 {
     font-size: 40px;
+    text-align: center;
   }
-
+  p {
+    text-align: center;
+  }
+  .project-description {
+    text-align: center;
+  }
   .biography {
     padding: 80px 20px;
   }
