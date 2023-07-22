@@ -34,10 +34,36 @@ img {
   padding: 15px 20px;
   background-color: var(--primary-color);
 }
-.biography {
+nav {
+  padding: 20px 0;
+}
+nav li {
+  display: inline;
+  margin-left: 15px;
+}
+nav a {
+  text-decoration: none;
+  color: #272142b2;
+}
+footer .contact-box {
+  background-color: #ffcbcb;
+  padding: 30px 120px;
+  border-radius: 10px;
+}
+footer .contact-box h3 {
+  font-size: 40px;
+}
+.content-container {
   background-color: var(--primary-color);
   text-align: center;
   padding: 100px 10px;
+}
+.content {
+  margin: 30px;
+}
+.content-container .content h1 {
+  font-size: 64px;
+  line-height: 80px;
 }
 .primary-link {
   background-color: var(--secondry-color);
@@ -56,6 +82,28 @@ img {
   font-size: 28px;
   text-decoration: none;
 }
+.logo {
+  padding: 0;
+  background-color: white;
+  max-height: 40px;
+}
+nav a:hover,
+nav li.active a {
+  color: var(--primary-color);
+}
+.social-links a {
+  padding: 10px 14px;
+  background-color: var(--primary-color);
+  color: var(--secondry-color);
+  margin-right: 20px;
+  border-radius: 50%;
+  font-size: 18px;
+  transition: all 100ms ease-in-out;
+}
+.social-links a:hover {
+  background-color: var(--secondry-color);
+  color: var(--primary-color);
+}
 @media (max-width: 900px) {
   h1 {
     font-size: 44px;
@@ -71,7 +119,10 @@ img {
   .project-description {
     text-align: center;
   }
-  .biography {
+  .content-container {
     padding: 80px 20px;
+  }
+  nav li {
+    font-size: 15px;
   }
 }
