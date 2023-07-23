@@ -62,13 +62,24 @@ footer .contact-box h3 {
   margin: 30px;
 }
 .content-container .content h1 {
-  font-size: 64px;
+  font-size: 40px;
   line-height: 80px;
 }
 .primary-link {
   background-color: var(--secondry-color);
   border-radius: 4px;
   color: white;
+  font-size: 18px;
+  line-height: 27px;
+  padding: 15px 30px;
+  text-decoration: none;
+  box-shadow: var(--box-shadow);
+}
+.secondry-link {
+  background-color: white;
+  color: var(--secondry-color);
+  border-radius: 4px;
+
   font-size: 18px;
   line-height: 27px;
   padding: 15px 30px;
@@ -104,6 +115,12 @@ nav li.active a {
   background-color: var(--secondry-color);
   color: var(--primary-color);
 }
+.content h1 {
+  font-size: 64px;
+}
+.content h2 {
+  font-size: 45px;
+}
 @media (max-width: 900px) {
   h1 {
     font-size: 44px;
@@ -117,6 +134,9 @@ nav li.active a {
     text-align: center;
   }
   .project-description {
+    text-align: center;
+  }
+  .content {
     text-align: center;
   }
   .content-container {
