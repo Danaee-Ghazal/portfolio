@@ -9,9 +9,7 @@ font-family: 'Poppins', sans-serif; */
   --default-font: "Poppins", sans-serif;
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 }
-.element {
-  overflow-x: hidden;
-}
+
 body {
   font-family: var(--default-font);
 }
@@ -147,5 +145,8 @@ nav li.active a {
   }
   nav li {
     font-size: 15px;
+  }
+  .container {
+    overflow-x: hidden;
   }
 }
